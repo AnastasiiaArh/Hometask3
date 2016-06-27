@@ -1,0 +1,208 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/*TOTAL*/
+
+.bgcolor{
+background-color: #f9f9f9;
+
+}
+.wrapper{
+width: 1060px;
+height: 950px;
+margin: 5px 0  0 153px;
+border-left: 1px solid #dbdbdb;
+border-right: 1px solid #dbdbdb;
+background-color: #ffffff;
+
+}
+.box1{
+width: 46px;
+height: 950px;
+float: left;
+}
+
+.box2{
+width: 966px;
+height: 950px;
+float: left;
+}
+
+.box3{
+width: 48px;
+height: 950px;
+float: left;
+}
+
+
+/*LOGO*/
+.logo{
+  height: 75px;
+  padding-top: 50px;
+
+}
+
+
+/*HEADER*/
+
+.header_menu{
+  height: 40px;
+  background-image: url(../img/panel-line.png);
+
+
+}
+
+.header_menu>span{
+  display: inline-block;
+  width: 135px;
+  font: 14.67px Open Sans;
+  color: #ffffff;
+  text-align: center;
+  line-height:40px;
+
+  }
+.header_menu>span:hover{
+  background-image:url(../img/link.png);
+  border-left: 1px solid #838383;
+  border-right: 1px solid #838383;
+}
+
+/*CONTAINER*/
+.left_box {
+width: 290px;
+height: 680px;
+float: left;
+}
+
+.left_menu {
+width: 240px;
+height: 240px;
+margin-top: 40px;
+border: 1px solid #c8c8c8;
+}
+
+.left_menu>span{
+  display: inline-block;
+  width: 215px;
+  font: 13.33px Open Sans;
+  color: #656363;
+  line-height:40px;
+  border-bottom: 1px solid #c8c8c8;
+  padding-left: 25px;
+
+}
+.left_menu>span:last-child{
+  border-bottom: none;
+}
+
+.left_menu>span:hover{
+  width: 205px;
+  color: #2c2c2c;
+  padding-left: 35px
+
+}
+
+.content{
+  width: 676px;
+  height: 680px;
+  float: left;
+}
+
+.content>img{
+  margin-top: 40px;
+  width: 673px;
+  height: 400px;
+  border: 1px solid #c8c8c8;
+}
+
+.text{
+  width: 676px;
+  height: 240px;
+  }
+
+.text>span{
+  display: inline-block;
+  font: 13.33px Open Sans;
+  color:#2c2c2c;
+  padding: 40px 0 0 25px;
+  line-height: 23px
+}
+
+/*FOOTER*/
+
+.footer{
+  height: 40px;
+  width: 966px;
+  float: left;
+  background-image: url(../img/panel.png);
+}
+
+.footer>span{
+  display: inline-block;
+  width: 132px;
+  font: 13.33px Open Sans;
+  color:#2c2c2c;
+  text-align: center;
+  line-height:40px;
+
+  }
+.footer>span:hover{
+  text-decoration: underline;
+}
+
+.footer>span:last-child{
+  display: inline-block;
+  width: 406px;
+  font: 13.33px Open Sans;
+  color:#2c2c2c;
+  text-align: right;
+  line-height:40px;
+  text-decoration: none;
+}
